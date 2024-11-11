@@ -1,0 +1,11 @@
+name: project_workflow
+
+on:
+ push:
+    branches:
+    - main
+
+jobs:
+    project:
+        uses: AnuhyaKoganti/config-/.github/workflows/testconfig.yaml@main
+           
